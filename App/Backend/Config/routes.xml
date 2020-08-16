@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routes>
+    <route action="disconnect" module="Connexion" url="/admin/disconnect\.html"></route>
+
+    <route action="index" module="News" url="/admin/"></route>
+    <route action="show" module="News" url="/admin/news-([0-9]+)\.html" vars="id"></route>
+    <route action="insert" module="News" url="/admin/news-insert\.html"></route>
+    <route action="update" module="News" url="/admin/news-update-([0-9]+)\.html" vars="id"></route>
+    <route action="delete" module="News" url="/admin/news-delete-([0-9]+)\.html" vars="id"></route>
+
+    <route action="showAll" module="Commentaire" url="/admin/list-com\.html" vars="id"></route>
+    <route action="modify" module="Commentaire" url="/admin/modify-com-([0-9]+)\.html" vars="id"></route>
+    <route action="delete" module="Commentaire" url="/admin/delete-com-([0-9]+)\.html" vars="id"></route>
+</routes>
